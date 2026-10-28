@@ -1,39 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rupraj Datta | Backend & Security Engineer</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header>
-    <nav class="navbar">
-      <div class="logo">29rdx<span>.dev</span></div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#terminal">Terminal</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Arsenal</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section id="hero" class="hero">
-      <div class="container hero-content">
-        <div class="status-pill">
-          <span class="status-dot"></span> Available for high-impact backend & security roles
-        </div>
-        <h1 class="hero-title">Rupraj Datta</h1>
-        <h2 class="hero-subtitle">Senior Backend Engineer & Cybersecurity Specialist</h2>
-        <p class="hero-description">
-          Architecting resilient distributed services, zero-trust backend pipelines, and autonomous telemetry infrastructure.
-        </p>
-        <div class="hero-cta">
-          <a href="#projects" class="btn btn-primary">View Flagship Work</a>
-          <a href="#terminal" class="btn btn-secondary">Launch Interactive CLI</a>
+
+    <section id="terminal" class="terminal-section">
+      <div class="container">
+        <div class="terminal-window">
+          <div class="terminal-header">
+            <div class="terminal-buttons">
+              <span class="btn-dot red"></span>
+              <span class="btn-dot yellow"></span>
+              <span class="btn-dot green"></span>
+            </div>
+            <div class="terminal-title">rupraj@sentinel-host: ~</div>
+          </div>
+          <div class="terminal-body" id="terminal-body">
+            <div class="term-line output">Welcome to Rupraj Datta's Interactive Systems Terminal v2.4.0.</div>
+            <div class="term-line output">Type <span class="term-highlight">'help'</span> to see available commands or <span class="term-highlight">'whoami'</span> to inspect credentials.</div>
+            <div class="term-line prompt-line">
+              <span class="prompt">rupraj@sentinel:~$</span>
+              <input type="text" id="terminal-input" autofocus autocomplete="off" spellcheck="false">
+            </div>
+          </div>
         </div>
       </div>
     </section>
