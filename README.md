@@ -14,3 +14,9 @@ Official personal developer portfolio for **Rupraj Datta** (`29rdx`), Senior Bac
 
 ## 🌐 Live Preview
 Visit the live deployment at [29rdx.github.io/my29portfolio](https://29rdx.github.io/my29portfolio/).
+
+### ⌨️ Terminal Keybindings
+- `Enter`: Submit command
+- `Up / Down`: Cycle previous commands
+- `Tab`: Autocomplete command name
+- `Ctrl + L`: Clear screen
