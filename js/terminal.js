@@ -74,3 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+// Added command history buffer
+const history = [];
+let historyIndex = -1;
