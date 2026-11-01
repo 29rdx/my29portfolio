@@ -10,3 +10,17 @@
     font-size: 0.85rem;
   }
 }
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(48, 54, 61, 0.08) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(48, 54, 61, 0.08) 1px, transparent 1px);
+  background-size: 32px 32px;
+  pointer-events: none;
+  z-index: -1;
+}
