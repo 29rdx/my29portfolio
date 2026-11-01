@@ -1,82 +1,41 @@
 
-.projects-section {
-  padding: 80px 0;
+.skills-section {
+  padding: 60px 0;
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
 }
 
-.section-title {
-  font-size: 2.2rem;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 48px;
-  color: var(--text-main);
-}
-
-.projects-grid {
+.skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 32px;
 }
 
-.project-card {
+.skill-category {
   background: var(--bg-card);
+  padding: 30px;
+  border-radius: 10px;
   border: 1px solid var(--border-subtle);
-  border-radius: 12px;
-  padding: 32px;
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-  position: relative;
 }
 
-.project-card:hover {
-  transform: translateY(-6px);
-  border-color: var(--accent-cyan);
-  box-shadow: 0 12px 30px rgba(56, 189, 248, 0.1);
-}
-
-.card-badge {
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
+.skill-category h3 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
   color: var(--accent-cyan);
-  letter-spacing: 0.05em;
-  margin-bottom: 12px;
 }
 
-.project-card h3 {
-  font-size: 1.4rem;
-  margin-bottom: 14px;
+.skill-category ul {
+  list-style: none;
 }
 
-.project-card p {
+.skill-category li {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(48, 54, 61, 0.4);
   color: var(--text-muted);
   font-size: 0.95rem;
-  margin-bottom: 24px;
-  line-height: 1.6;
 }
 
-.card-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 24px;
-}
-
-.card-tags span {
-  background: var(--bg-secondary);
-  color: var(--text-muted);
-  border: 1px solid var(--border-subtle);
-  font-size: 0.8rem;
-  padding: 4px 10px;
-  border-radius: 6px;
-  font-family: var(--font-mono);
-}
-
-.card-links a {
-  color: var(--accent-cyan);
-  font-weight: 600;
-  text-decoration: none;
-  font-size: 0.95rem;
-}
-
-.card-links a:hover {
-  text-decoration: underline;
+.skill-category li:last-child {
+  border-bottom: none;
 }
